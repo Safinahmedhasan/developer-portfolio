@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans';
+}
+.mary-r{
+    color:#FD6E0A ;
+
+}
+.section-mean-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+
+}
+.mean-head-heading{
+    font-weight: 800;
+    font-size: 45px;
+}
+.mean-heading-menu{
+    display: flex;
+    align-items: center;
+
+}
+.mean-heading-menu li{
+    padding: 0px 25px ;
+    list-style: none;
+}
+.mean-heading-menu li a{
+   text-decoration: none;
+   color: #474747;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border: 0;
+    color:#fff;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
