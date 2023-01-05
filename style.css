@@ -9,11 +9,15 @@ body{
     color:#FD6E0A ;
 
 }
+.mean{
+   position: absolute;
+}
 .section-mean-heading{
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
     background: #FFF8F3;
+   
 
 }
 .mean-head-heading{
@@ -38,7 +42,7 @@ body{
     background: #FD6E0A;
     border: 0;
     color:#fff;
-    width: 150px;
+    width: 180px;
     height: 64px;
     border-radius: 5px;
     font-weight: 700;
@@ -54,6 +58,7 @@ body{
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: right center;
+
 }
 .banner-section-h3{
     font-weight: 600;
@@ -75,4 +80,15 @@ body{
 }
 .banner-section-right img{
     width: 452px;
+}
+
+.btn-primary-two{
+    text-decoration: none;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 20px 30px ;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
 }
