@@ -13,11 +13,13 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
+    background: #FFF8F3;
 
 }
 .mean-head-heading{
     font-weight: 800;
     font-size: 45px;
+
 }
 .mean-heading-menu{
     display: flex;
@@ -42,4 +44,35 @@ body{
     font-weight: 700;
     font-size: 20px;
 
+}
+/* Bannner Section */
+.banner-section{
+    display: flex;
+    padding: 50px 200px;
+    align-items: center;
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.banner-section-h3{
+    font-weight: 600;
+    font-size: 35px;
+    color: #474747;
+    margin-bottom: 25px;
+
+ 
+}
+.banner-section-h2{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.banner-section-p{
+    font-weight: 400;
+    font-size: 18px; 
+    margin-bottom: 20px;
+}
+.banner-section-right img{
+    width: 452px;
 }
